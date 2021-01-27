@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scrollbar-color: black;
+}
+nav {
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.4s ease-out;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: right;
+}
+a {
+  padding: 20px;
+  width: 100px;
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+a:hover {
+  color: black;
+}
+nav.scroll {
+  background-color: #cc5500;
+  color: white;
+}
+
+#section1 {
+  height: 500px;
+  background: url("/images/20.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+  display: inline-block;
+  width: 100%;
+}
+#section2 {
+  height: 500px;
+  background: white;
+  display: inline-block;
+  width: 100%;
+}
+#section3 {
+  height: 700px;
+  background: #171717;
+  display: inline-block;
+  width: 100%;
+}
+#section4 {
+  height: 700px;
+  background: white;
+  display: inline-block;
+  width: 100%;
+}
+
+#section5 {
+  height: 700px;
+  background: #171717;
+  display: inline-block;
+  width: 100%;
+}
+h1 {
+  margin: 100px;
+  text-align: center;
+  padding: 0;
+  color: #cc5500;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+#type1 {
+  color: white;
+  letter-spacing: 2px;
+  margin: 100px;
+  padding: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+h3 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #cc5500;
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+  color: #cc5500;
+  font-weight: 400;
+  width: 500px;
+  border: 15px;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 13px;
+}
+
+.intro2 {
+  text-align: center;
+  color: #cc5500;
+  font-weight: 400;
+  width: 500px;
+  border: 15px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 13px;
+}
+p {
+  text-align: center;
+  color: #cc5500;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  font-size: 13px;
+}
